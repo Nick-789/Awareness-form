@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    /* background-color: black; */
+   
     color: #fff;
     padding: 16px;
     text-align: center;
@@ -22,16 +22,17 @@ h1 {
     margin-top: 0;
 }
 
+
 p {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
 
-.btn {
+.btn1 {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #dc3545;
+   background-color: #c82333;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -46,8 +47,9 @@ li{
     color: #000000;
 }
 
-.btn:hover {
-    background-color: #c82333;
+.btn1:hover {
+    background-color: #a50c1b;
+    color: whitesmoke;
 }
 
 .container {
@@ -62,13 +64,40 @@ li{
 
 nav li{
     padding-bottom: 8px;
+    font-weight: 600;
 }
 
+#benefits{
+    margin-top: 25px;
+}
 #benefits li{
     padding-bottom: 8px;
 }
+
+#eleigibility ul{
+    display:flex
+}
 #eligibility li{
     padding-bottom: 8px;
+}
+
+#eligibility img{
+    display: inline-flex;
+    position: relative;
+    left: 637px;
+    bottom: 360px;
+}
+#eligibility {
+    margin-top: 20px;
+    height: 220px;
+}
+
+#process{
+    margin-top: 20px;
+}
+
+#myths{
+    margin-top: 20px;
 }
 
 #process li{
